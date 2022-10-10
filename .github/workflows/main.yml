@@ -6,16 +6,16 @@ on:
     branches: ["master"]
 
 
-    jobs:
-    TestJob:
-        runs-on: macos-latest
-        steps:
-          - uses: actions/checkout@v3
-          - uses: actions/setup-java@v3
-            with:
-              distribution: 'microsoft'
-              java-version: '11'
-              cache: maven
-          - run: mvn clean test
+jobs:
+   test:
+     runs-on: macos-latest
+     steps:
+       - uses: actions/checkout@v3
+       - uses: actions/setup-java@v3
+         with:
+           java-version: '11"
+           distribution: 'temurin'
+           cache: maven
+       - run: mvn clean test
 
 
