@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.983" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Development\Java\Java_projects\QaCartRestAssuredProject\target\test-classes;D:\Development\Java\Java_projects\QaCartRestAssuredProject\target\classes;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Mahmoud.Samy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-testng\2.19.0\allure-testng-2.19.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-test-filter\2.19.0\allure-test-filter-2.19.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mahmoud.Samy\AppData\Local\Temp\surefire8675054393361362957\surefirebooter-20221010232137976_3.jar C:\Users\Mahmoud.Samy\AppData\Local\Temp\surefire8675054393361362957 2022-10-10T23-21-37_566-jvmRun1 surefire-20221010232137976_1tmp surefire_0-20221010232137976_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Development\Java\Java_projects\QaCartRestAssuredProject\target\test-classes;D:\Development\Java\Java_projects\QaCartRestAssuredProject\target\classes;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Mahmoud.Samy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4\jackson-databind-2.13.4.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Mahmoud.Samy\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Mahmoud.Samy\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Mahmoud.Samy\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-testng\2.19.0\allure-testng-2.19.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-java-commons\2.19.0\allure-java-commons-2.19.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-model\2.19.0\allure-model-2.19.0.jar;C:\Users\Mahmoud.Samy\.m2\repository\io\qameta\allure\allure-test-filter\2.19.0\allure-test-filter-2.19.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mahmoud.Samy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Development\Java\Java_projects\QaCartRestAssuredProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mahmoud.Samy\AppData\Local\Temp\surefire8675054393361362957\surefirebooter-20221010232137976_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="Mahmoud.Samy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Mahmoud.Samy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAHMOU~1.SAM\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="D:\Development\Java\Java_projects\QaCartRestAssuredProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.2\bin;D:\Programs\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Development\Java\Integrations\Allure\allure-2.19.0\bin;D:\Development\Java\Integrations\gradle-7.5.1-bin\gradle-7.5.1\bin;C:\Users\Mahmoud.Samy\AppData\Local\Microsoft\WindowsApps;C:\Users\Mahmoud.Samy\AppData\Local\GitHubDesktop\bin;C:\Users\Mahmoud.Samy\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldBeAbleToRegister" classname="com.qacart.todo.testcases.UserTests" time="4.904">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Linette",
+    "lastName": "Stanton",
+    "email": "kisha.roberts@gmail.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Loria",
+    "lastName": "Schmitt",
+    "email": "leanora.hickle@gmail.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Larry",
+    "lastName": "Kohler",
+    "email": "creola.simonis@hotmail.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Phil",
+    "lastName": "Leuschke",
+    "email": "tameka.wolff@hotmail.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Lavonna",
+    "lastName": "Veum",
+    "email": "ofelia.dach@yahoo.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Thuy",
+    "lastName": "Thiel",
+    "email": "kendal.blanda@yahoo.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Douglass",
+    "lastName": "O'Hara",
+    "email": "blaine.medhurst@hotmail.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Kathyrn",
+    "lastName": "Skiles",
+    "email": "kris.sanford@yahoo.com",
+    "password": "gogogogogo"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U2ZjNiZDc1MDAxNjZlZDYzMyIsImZpcnN0TmFtZSI6IkxvcmlhIiwibGFzdE5hbWUiOiJTY2htaXR0IiwiaWF0IjoxNjY1NDM2OTAzfQ.fplBei5eLZzKDbD-GnQ2G9Co_j43qb72nQu1EfXfBSk; Path=/
+Set-Cookie: userID=j%3A%2263448ce6f3bd7500166ed633%22; Path=/
+Set-Cookie: firstName=Loria; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 278
+Etag: W/"116-6ny1SWSUtr0KIxeXCEA0sBdbFJA"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U2ZjNiZDc1MDAxNjZlZDYzMyIsImZpcnN0TmFtZSI6IkxvcmlhIiwibGFzdE5hbWUiOiJTY2htaXR0IiwiaWF0IjoxNjY1NDM2OTAzfQ.fplBei5eLZzKDbD-GnQ2G9Co_j43qb72nQu1EfXfBSk",
+    "userID": "63448ce6f3bd7500166ed633",
+    "firstName": "Loria"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzNyIsImZpcnN0TmFtZSI6IkthdGh5cm4iLCJsYXN0TmFtZSI6IlNraWxlcyIsImlhdCI6MTY2NTQzNjkwM30.ZjEN-iG0kvJPyOs0qQ_F4CO3zYZPpQ4_yofc1iSC7Nk; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed637%22; Path=/
+Set-Cookie: firstName=Kathyrn; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 281
+Etag: W/"119-aihhazJ7iR10bXkgLz3JD/pZbcE"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzNyIsImZpcnN0TmFtZSI6IkthdGh5cm4iLCJsYXN0TmFtZSI6IlNraWxlcyIsImlhdCI6MTY2NTQzNjkwM30.ZjEN-iG0kvJPyOs0qQ_F4CO3zYZPpQ4_yofc1iSC7Nk",
+    "userID": "63448ce7f3bd7500166ed637",
+    "firstName": "Kathyrn"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzOSIsImZpcnN0TmFtZSI6IkRvdWdsYXNzIiwibGFzdE5hbWUiOiJPJ0hhcmEiLCJpYXQiOjE2NjU0MzY5MDN9.hWnja8CJ45ZYcift2yHPJCcp4CcsmO3zoNhFFvwtftY; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed639%22; Path=/
+Set-Cookie: firstName=Douglass; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 283
+Etag: W/"11b-UClMETdixdBGwC/xv3UVK9STZh0"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzOSIsImZpcnN0TmFtZSI6IkRvdWdsYXNzIiwibGFzdE5hbWUiOiJPJ0hhcmEiLCJpYXQiOjE2NjU0MzY5MDN9.hWnja8CJ45ZYcift2yHPJCcp4CcsmO3zoNhFFvwtftY",
+    "userID": "63448ce7f3bd7500166ed639",
+    "firstName": "Douglass"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzYiIsImZpcnN0TmFtZSI6IkxpbmV0dGUiLCJsYXN0TmFtZSI6IlN0YW50b24iLCJpYXQiOjE2NjU0MzY5MDN9.Safl13ArWURNgoS5UyPdxGLcPPy81HBYrccPO9V_QXQ; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed63b%22; Path=/
+Set-Cookie: firstName=Linette; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 282
+Etag: W/"11a-9s3g5fyvZ3KMU1lnUw+EqCohJ3Y"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzYiIsImZpcnN0TmFtZSI6IkxpbmV0dGUiLCJsYXN0TmFtZSI6IlN0YW50b24iLCJpYXQiOjE2NjU0MzY5MDN9.Safl13ArWURNgoS5UyPdxGLcPPy81HBYrccPO9V_QXQ",
+    "userID": "63448ce7f3bd7500166ed63b",
+    "firstName": "Linette"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDY0MSIsImZpcnN0TmFtZSI6IkxhcnJ5IiwibGFzdE5hbWUiOiJLb2hsZXIiLCJpYXQiOjE2NjU0MzY5MDN9.E4hqu76Yor-q1ATG1Ufph1vd_WyiTQkCIBcm8LtIKyA; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed641%22; Path=/
+Set-Cookie: firstName=Larry; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+Etag: W/"114-wuovuAKNb5tk8XmgUy9Rs13cf8I"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDY0MSIsImZpcnN0TmFtZSI6IkxhcnJ5IiwibGFzdE5hbWUiOiJLb2hsZXIiLCJpYXQiOjE2NjU0MzY5MDN9.E4hqu76Yor-q1ATG1Ufph1vd_WyiTQkCIBcm8LtIKyA",
+    "userID": "63448ce7f3bd7500166ed641",
+    "firstName": "Larry"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzNSIsImZpcnN0TmFtZSI6IlRodXkiLCJsYXN0TmFtZSI6IlRoaWVsIiwiaWF0IjoxNjY1NDM2OTAzfQ.LzZnLItvGXacaEm2F-EDhrMDKTJumtZgCdv8LecxGY8; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed635%22; Path=/
+Set-Cookie: firstName=Thuy; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 273
+Etag: W/"111-Qj3sKANSKJdWKQLHgnbODrDcCSs"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzNSIsImZpcnN0TmFtZSI6IlRodXkiLCJsYXN0TmFtZSI6IlRoaWVsIiwiaWF0IjoxNjY1NDM2OTAzfQ.LzZnLItvGXacaEm2F-EDhrMDKTJumtZgCdv8LecxGY8",
+    "userID": "63448ce7f3bd7500166ed635",
+    "firstName": "Thuy"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzZCIsImZpcnN0TmFtZSI6IlBoaWwiLCJsYXN0TmFtZSI6IkxldXNjaGtlIiwiaWF0IjoxNjY1NDM2OTAzfQ.5Fgth6D_1gicxGL2JeZlf08gsutYhu2Ck7EIlVsEIQk; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed63d%22; Path=/
+Set-Cookie: firstName=Phil; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 277
+Etag: W/"115-k9P1sCL2oVqCXX9GQGJ+jknFRQI"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzZCIsImZpcnN0TmFtZSI6IlBoaWwiLCJsYXN0TmFtZSI6IkxldXNjaGtlIiwiaWF0IjoxNjY1NDM2OTAzfQ.5Fgth6D_1gicxGL2JeZlf08gsutYhu2Ck7EIlVsEIQk",
+    "userID": "63448ce7f3bd7500166ed63d",
+    "firstName": "Phil"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "creola.simonis@hotmail.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "blaine.medhurst@hotmail.com",
+    "password": "wrong password"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Kathyrn",
+    "lastName": "Skiles",
+    "email": "kris.sanford@yahoo.com",
+    "password": "gogogogogo"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzZiIsImZpcnN0TmFtZSI6Ikxhdm9ubmEiLCJsYXN0TmFtZSI6IlZldW0iLCJpYXQiOjE2NjU0MzY5MDN9.cOzLb4Rfamxj906k5A4Czyr0RSbxowpUjSiMGQZBvUw; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed63f%22; Path=/
+Set-Cookie: firstName=Lavonna; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 278
+Etag: W/"116-b2aaMu4HPyI+YATy5Q/YVN0NhvM"
+Date: Mon, 10 Oct 2022 21:21:43 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDYzZiIsImZpcnN0TmFtZSI6Ikxhdm9ubmEiLCJsYXN0TmFtZSI6IlZldW0iLCJpYXQiOjE2NjU0MzY5MDN9.cOzLb4Rfamxj906k5A4Czyr0RSbxowpUjSiMGQZBvUw",
+    "userID": "63448ce7f3bd7500166ed63f",
+    "firstName": "Lavonna"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNOTBeAbleToLogInWithWrongPass" classname="com.qacart.todo.testcases.UserTests" time="5.394">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "isCompleted": false,
+    "item": "Brandy of the Damned"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "TODO"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Trenton",
+    "lastName": "Brown",
+    "email": "dion.braun@hotmail.com",
+    "password": "gogogogogo"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Tish",
+    "lastName": "Reilly",
+    "email": "karl.waelchi@gmail.com",
+    "password": "gogogogogo"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Etag: W/"35-dsxV0+vy1L0TgNQY0Spaqv/j9fw"
+Date: Mon, 10 Oct 2022 21:21:44 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Email is already exists in the Database"
+}
+HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+Etag: W/"69-+ROAeTYdLtKREH6azCyNv++b54o"
+Date: Mon, 10 Oct 2022 21:21:44 GMT
+Via: 1.1 vegur
+
+{
+    "message": "The email and password combination is not correct, please fill a correct email and password"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDY0MSIsImZpcnN0TmFtZSI6IkxhcnJ5IiwibGFzdE5hbWUiOiJLb2hsZXIiLCJpYXQiOjE2NjU0MzY5MDR9.X7L1BcVUFY6ddbJLLZQJ-ZX5-IDvF_VGl510faPwkP0; Path=/
+Set-Cookie: userID=j%3A%2263448ce7f3bd7500166ed641%22; Path=/
+Set-Cookie: firstName=Larry; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+Etag: W/"114-Beuk9nn8vAl0djpSMBuDoArk1WY"
+Date: Mon, 10 Oct 2022 21:21:44 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U3ZjNiZDc1MDAxNjZlZDY0MSIsImZpcnN0TmFtZSI6IkxhcnJ5IiwibGFzdE5hbWUiOiJLb2hsZXIiLCJpYXQiOjE2NjU0MzY5MDR9.X7L1BcVUFY6ddbJLLZQJ-ZX5-IDvF_VGl510faPwkP0",
+    "userID": "63448ce7f3bd7500166ed641",
+    "firstName": "Larry"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotBeAbleToRegister" classname="com.qacart.todo.testcases.UserTests" time="5.394"/>
+  <testcase name="shouldBeAbleToLogIn" classname="com.qacart.todo.testcases.UserTests" time="5.394"/>
+  <testcase name="shouldNOTBeAbleToAddTODOWithoutIsCompleted" classname="com.qacart.todo.testcases.TodoTests" time="5.729">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+Etag: W/"29-6r/RqTsrv9UltwKyzcuXEXN5hS4"
+Date: Mon, 10 Oct 2022 21:21:44 GMT
+Via: 1.1 vegur
+
+{
+    "message": "\"isCompleted\" is required"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToAddTODO" classname="com.qacart.todo.testcases.TodoTests" time="5.747">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 167
+Etag: W/"a7-ytoMXSsSv9zutZQhQ6GeVrZ0COc"
+Date: Mon, 10 Oct 2022 21:21:44 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63448ce8f3bd7500166ed646",
+    "item": "Brandy of the Damned",
+    "userID": "63448ce7f3bd7500166ed635",
+    "createdAt": "2022-10-10T21:21:44.551Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToGetTODOById" classname="com.qacart.todo.testcases.TodoTests" time="7.163">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U4ZjNiZDc1MDAxNjZlZDY0YSIsImZpcnN0TmFtZSI6IlRyZW50b24iLCJsYXN0TmFtZSI6IkJyb3duIiwiaWF0IjoxNjY1NDM2OTA0fQ.4ZsIh60km-E_XZPZRV1CXrwpzcWv_V9aI9eDAc7VPxI; Path=/
+Set-Cookie: userID=j%3A%2263448ce8f3bd7500166ed64a%22; Path=/
+Set-Cookie: firstName=Trenton; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+Etag: W/"118-ZyXZsxMfNaby8613fhlLYKO1+yA"
+Date: Mon, 10 Oct 2022 21:21:44 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U4ZjNiZDc1MDAxNjZlZDY0YSIsImZpcnN0TmFtZSI6IlRyZW50b24iLCJsYXN0TmFtZSI6IkJyb3duIiwiaWF0IjoxNjY1NDM2OTA0fQ.4ZsIh60km-E_XZPZRV1CXrwpzcWv_V9aI9eDAc7VPxI",
+    "userID": "63448ce8f3bd7500166ed64a",
+    "firstName": "Trenton"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U4ZjNiZDc1MDAxNjZlZDY0YyIsImZpcnN0TmFtZSI6IlRpc2giLCJsYXN0TmFtZSI6IlJlaWxseSIsImlhdCI6MTY2NTQzNjkwNH0.m5ODAHyLoQsisnkBDpj41g82yw-SHro2qNCWLMthrSg; Path=/
+Set-Cookie: userID=j%3A%2263448ce8f3bd7500166ed64c%22; Path=/
+Set-Cookie: firstName=Tish; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+Etag: W/"112-MOWk+PzYuEvcIaE2H47DrtSxY5I"
+Date: Mon, 10 Oct 2022 21:21:44 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNDQ4Y2U4ZjNiZDc1MDAxNjZlZDY0YyIsImZpcnN0TmFtZSI6IlRpc2giLCJsYXN0TmFtZSI6IlJlaWxseSIsImlhdCI6MTY2NTQzNjkwNH0.m5ODAHyLoQsisnkBDpj41g82yw-SHro2qNCWLMthrSg",
+    "userID": "63448ce8f3bd7500166ed64c",
+    "firstName": "Tish"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "isCompleted": false,
+    "item": "The Moving Finger"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "isCompleted": false,
+    "item": "The Parliament of Man"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 168
+Etag: W/"a8-Mp9A/Sy1XBr27CjUoNBgadVVfVk"
+Date: Mon, 10 Oct 2022 21:21:45 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63448ce9f3bd7500166ed64e",
+    "item": "The Parliament of Man",
+    "userID": "63448ce8f3bd7500166ed64c",
+    "createdAt": "2022-10-10T21:21:45.441Z",
+    "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 164
+Etag: W/"a4-txJ9O7FbrYom76nTFshlMVHUqeU"
+Date: Mon, 10 Oct 2022 21:21:45 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63448ce9f3bd7500166ed650",
+    "item": "The Moving Finger",
+    "userID": "63448ce8f3bd7500166ed64a",
+    "createdAt": "2022-10-10T21:21:45.448Z",
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks/63448ce9f3bd7500166ed64e
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks/63448ce9f3bd7500166ed650
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 168
+Etag: W/"a8-Mp9A/Sy1XBr27CjUoNBgadVVfVk"
+Date: Mon, 10 Oct 2022 21:21:46 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63448ce9f3bd7500166ed64e",
+    "item": "The Parliament of Man",
+    "userID": "63448ce8f3bd7500166ed64c",
+    "createdAt": "2022-10-10T21:21:45.441Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToDeleteTodo" classname="com.qacart.todo.testcases.TodoTests" time="7.176">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 164
+Etag: W/"a4-txJ9O7FbrYom76nTFshlMVHUqeU"
+Date: Mon, 10 Oct 2022 21:21:46 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63448ce9f3bd7500166ed650",
+    "item": "The Moving Finger",
+    "userID": "63448ce8f3bd7500166ed64a",
+    "createdAt": "2022-10-10T21:21:45.448Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+</testsuite>
